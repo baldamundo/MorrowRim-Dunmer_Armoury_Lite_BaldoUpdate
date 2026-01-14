@@ -156,6 +156,93 @@
 					<apparelMoney>1500~2000</apparelMoney>
 					</value> 
 				</li>
+				
+				        <!-- Great House  Weapon Tag Updates -->
+        
+        <!-- 1. Penitent: NeolithicMeleeBasic → MedievalMeleeBasic + ChitinThrowing -->
+        <li Class="PatchOperationReplace">
+            <xpath>/Defs/PawnKindDef[defName="ESCP_Dunmer_Tribal_Penitent"]/weaponTags</xpath>
+            <value>
+                <weaponTags>
+                    <li>MedievalMeleeBasic</li>
+                    <li>MorrowRim_Dunmer_ChitinThrowing</li>
+                </weaponTags>
+            </value>
+        </li>
+        
+        <!-- 2. Archer: NeolithicRangedBasic → MedievalMeleeDecent + BonemoldThrowing -->
+        <li Class="PatchOperationReplace">
+            <xpath>/Defs/PawnKindDef[defName="ESCP_Dunmer_Tribal_Archer"]/weaponTags</xpath>
+            <value>
+                <weaponTags>
+                    <li>MedievalMeleeDecent</li>
+                    <li>MorrowRim_Dunmer_BonemoldThrowing</li>
+                </weaponTags>
+            </value>
+        </li>
+        
+        <!-- 3. Warrior: NeolithicMeleeDecent → MedievalMeleeDecent + BonemoldThrowing -->
+        <li Class="PatchOperationReplace">
+            <xpath>/Defs/PawnKindDef[defName="ESCP_Dunmer_Tribal_Warrior"]/weaponTags</xpath>
+            <value>
+                <weaponTags>
+                    <li>MedievalMeleeDecent</li>
+                    <li>MorrowRim_Dunmer_BonemoldThrowing</li>
+                </weaponTags>
+            </value>
+        </li>
+        
+        <!-- 4. Breacher: NeolithicMeleeDestructive → MedievalMeleeAdvanced + DestructiveExplosive -->
+        <li Class="PatchOperationReplace">
+            <xpath>/Defs/PawnKindDef[defName="ESCP_Dunmer_Tribal_Breacher"]/weaponTags</xpath>
+            <value>
+                <weaponTags>
+                    <li>MedievalMeleeAdvanced</li>
+                    <li>MorrowRim_Dunmer_BonemoldExplosive_Destructive</li>
+                </weaponTags>
+            </value>
+        </li>
+        
+        <!-- 5. Berserker: NeolithicMeleeAdvanced → MedievalMeleeAdvanced + DestructiveExplosive -->
+        <li Class="PatchOperationReplace">
+            <xpath>/Defs/PawnKindDef[defName="ESCP_Dunmer_Tribal_Berserker"]/weaponTags</xpath>
+            <value>
+                <weaponTags>
+                    <li>MedievalMeleeAdvanced</li>
+                    <li>MorrowRim_Dunmer_BonemoldExplosive_Destructive</li>
+                </weaponTags>
+            </value>
+        </li>
+        
+        <!-- 6. HeavyArcher: NeolithicRangedHeavy → MedievalMeleeAdvanced + DestructiveExplosive -->
+        <li Class="PatchOperationReplace">
+            <xpath>/Defs/PawnKindDef[defName="ESCP_Dunmer_Tribal_HeavyArcher"]/weaponTags</xpath>
+            <value>
+                <weaponTags>
+                    <li>MedievalMeleeAdvanced</li>
+                    <li>MorrowRim_Dunmer_BonemoldExplosive_Destructive</li>
+                </weaponTags>
+            </value>
+        </li>
+        
+        <!-- 7. ChiefMelee: Keep existing + add GasExplosive -->
+        <li Class="PatchOperationAdd">
+            <xpath>/Defs/PawnKindDef[defName="ESCP_Dunmer_Tribal_ChiefMelee"]/weaponTags</xpath>
+            <value>
+                <li>MorrowRim_Dunmer_BonemoldExplosive_Gas</li>
+            </value>
+        </li>
+        
+        <!-- 8. ChiefRanged: NeolithicRangedChief → MedievalMeleeAdvanced + GasExplosive -->
+        <li Class="PatchOperationReplace">
+            <xpath>/Defs/PawnKindDef[defName="ESCP_Dunmer_Tribal_ChiefRanged"]/weaponTags</xpath>
+            <value>
+                <weaponTags>
+                    <li>MedievalMeleeAdvanced</li>
+                    <li>MorrowRim_Dunmer_BonemoldExplosive_Gas</li>
+                </weaponTags>
+            </value>
+        </li>
 
 				
             </operations>

@@ -46,9 +46,10 @@
 		<weaponClasses>
 			<li>RangedLight</li>
 		</weaponClasses>
-		<costList>
-			<InsectChitin>30</InsectChitin>
-		</costList>
+		<costStuffCount>30</costStuffCount>
+		<stuffCategories>
+			<li>MorrowRim_Chitin</li>
+		</stuffCategories>
 		<recipeMaker>
 			<skillRequirements>
 				<Crafting>2</Crafting>
