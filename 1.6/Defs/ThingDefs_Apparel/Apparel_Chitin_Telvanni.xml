@@ -23,11 +23,14 @@
 		<graphicData>
 			<texPath>Things/Pawn/Humanlike/Apparel/MorrowRim_Other/Telvanni_Cephalopod/Telvanni_Cephalopod_Helmet_Item</texPath>
 		</graphicData>
+		<costStuffCount>45</costStuffCount>
+		<stuffCategories>
+			<li>MorrowRim_Chitin</li>
+		</stuffCategories>
 		<costList>
 			<Cloth>30</Cloth>
 			<MorrowRim_AirSalts MayRequire="SirMashedPotato.MorrowRim.TelvanniTechnology">10</MorrowRim_AirSalts>
 			<MorrowRim_WaterSalts MayRequire="SirMashedPotato.MorrowRim.TelvanniTechnology">10</MorrowRim_WaterSalts>
-			<InsectChitin>45</InsectChitin>
 		</costList>
 		<statBases>
 			<WorkToMake>8600</WorkToMake>

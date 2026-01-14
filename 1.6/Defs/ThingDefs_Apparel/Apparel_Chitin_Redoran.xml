@@ -20,9 +20,12 @@
 		<graphicData>
 			<texPath>Things/Pawn/Humanlike/Apparel/MorrowRim_Chitin/Chitin_Redoran_Watchman/Chitin_RedoranWatchman_Helmet_Item</texPath>
 		</graphicData>
+		<costStuffCount>60</costStuffCount>
+		<stuffCategories>
+			<li>MorrowRim_Chitin</li>
+		</stuffCategories>
 		<costList>
 			<Cloth>45</Cloth>
-			<InsectChitin>60</InsectChitin>
 		</costList>
 		<statBases>
 			<WorkToMake>8600</WorkToMake>

@@ -21,9 +21,10 @@
 		<graphicData>
 			<texPath>Things/Pawn/Humanlike/Apparel/MorrowRim_Chitin/Chitin_Regular/Chitin_Regular_Armour_Item</texPath>
 		</graphicData>
-		<costList>
-			<InsectChitin>100</InsectChitin>
-		</costList>
+		<costStuffCount>100</costStuffCount>
+		<stuffCategories>
+			<li>MorrowRim_Chitin</li>
+		</stuffCategories>
 		<statBases>
 			<WorkToMake>26000</WorkToMake>
 			<MaxHitPoints>110</MaxHitPoints>
@@ -73,9 +74,10 @@
 		<graphicData>
 			<texPath>Things/Pawn/Humanlike/Apparel/MorrowRim_Chitin/Chitin_Regular/Chitin_Regular_Helmet_Item</texPath>
 		</graphicData>
-		<costList>
-			<InsectChitin>30</InsectChitin>
-		</costList>
+		<costStuffCount>30</costStuffCount>
+		<stuffCategories>
+			<li>MorrowRim_Chitin</li>
+		</stuffCategories>
 		<statBases>
 			<WorkToMake>4700</WorkToMake>
 			<MaxHitPoints>60</MaxHitPoints>
@@ -123,9 +125,10 @@
 		<graphicData>
 			<texPath>Things/Pawn/Humanlike/Apparel/MorrowRim_Chitin/Chitin_Regular/Chitin_Regular_Boots</texPath>
 		</graphicData>
-		<costList>
-			<InsectChitin>30</InsectChitin>
-		</costList>
+		<costStuffCount>30</costStuffCount>
+		<stuffCategories>
+			<li>MorrowRim_Chitin</li>
+		</stuffCategories>
 		<statBases>
 			<WorkToMake>4700</WorkToMake>
 			<MaxHitPoints>60</MaxHitPoints>
@@ -169,9 +172,10 @@
 		<graphicData>
 			<texPath>Things/Pawn/Humanlike/Apparel/MorrowRim_Chitin/Chitin_Regular/Chitin_Regular_Gauntlets</texPath>
 		</graphicData>
-		<costList>
-			<InsectChitin>30</InsectChitin>
-		</costList>
+		<costStuffCount>30</costStuffCount>
+		<stuffCategories>
+			<li>MorrowRim_Chitin</li>
+		</stuffCategories>
 		<statBases>
 			<WorkToMake>4700</WorkToMake>
 			<MaxHitPoints>60</MaxHitPoints>
@@ -222,8 +226,11 @@
 		</graphicData>
 		<costList Inherit="False">
 			<Cloth>20</Cloth>
-			<InsectChitin>20</InsectChitin>
 		</costList>
+		<costStuffCount>20</costStuffCount>
+		<stuffCategories>
+			<li>MorrowRim_Chitin</li>
+		</stuffCategories>
 		<statBases>
 			<ArmorRating_Sharp>0.16</ArmorRating_Sharp>
 			<ArmorRating_Blunt>0.08</ArmorRating_Blunt>

@@ -44,6 +44,7 @@
 		  <stuffAdjective>chitin</stuffAdjective>
 		  <categories>
 			<li>Woody</li>
+			<li>MorrowRim_Chitin</li>
 		  </categories>
 		  <commonality>0.3</commonality>
 		  <constructEffect>ConstructWood</constructEffect>

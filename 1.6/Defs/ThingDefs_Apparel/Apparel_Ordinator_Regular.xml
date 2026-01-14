@@ -23,10 +23,13 @@
 		<graphicData>
 			<texPath>Things/Pawn/Humanlike/Apparel/MorrowRim_Ordinator/Ordinator_Regular/Ordinator_Regular_Armour_Item</texPath>
 		</graphicData>
+		<costStuffCount>50</costStuffCount>
+		<stuffCategories>
+			<li>MorrowRim_Chitin</li>
+		</stuffCategories>
 		<costList>
 			<Gold>5</Gold>
 			<Cloth>30</Cloth>
-			<InsectChitin>50</InsectChitin>
 			<Mashed_Ashlands_VolcanicEbony>120</Mashed_Ashlands_VolcanicEbony>
 		</costList>
 		<statBases>
@@ -82,10 +85,13 @@
 		<graphicData>
 			<texPath>Things/Pawn/Humanlike/Apparel/MorrowRim_Ordinator/Ordinator_Regular/Ordinator_Regular_Helmet_Item</texPath>
 		</graphicData>
+		<costStuffCount>30</costStuffCount>
+		<stuffCategories>
+			<li>MorrowRim_Chitin</li>
+		</stuffCategories>
 		<costList>
 			<Gold>1</Gold>
 			<Cloth>20</Cloth>
-			<InsectChitin>30</InsectChitin>
 			<Mashed_Ashlands_VolcanicEbony>20</Mashed_Ashlands_VolcanicEbony>
 		</costList>
 		<statBases>
@@ -138,10 +144,13 @@
 		<graphicData>
 			<texPath>Things/Pawn/Humanlike/Apparel/MorrowRim_Ordinator/Ordinator_Regular/Ordinator_Regular_Boots</texPath>
 		</graphicData>
+		<costStuffCount>30</costStuffCount>
+		<stuffCategories>
+			<li>MorrowRim_Chitin</li>
+		</stuffCategories>
 		<costList>
 			<Gold>1</Gold>
 			<Cloth>20</Cloth>
-			<InsectChitin>30</InsectChitin>
 			<Mashed_Ashlands_VolcanicEbony>20</Mashed_Ashlands_VolcanicEbony>
 		</costList>
 		<statBases>
@@ -189,10 +198,13 @@
 		<graphicData>
 			<texPath>Things/Pawn/Humanlike/Apparel/MorrowRim_Ordinator/Ordinator_Regular/Ordinator_Regular_Gauntlets</texPath>
 		</graphicData>
+		<costStuffCount>30</costStuffCount>
+		<stuffCategories>
+			<li>MorrowRim_Chitin</li>
+		</stuffCategories>
 		<costList>
 			<Gold>1</Gold>
 			<Cloth>20</Cloth>
-			<InsectChitin>30</InsectChitin>
 			<Mashed_Ashlands_VolcanicEbony>20</Mashed_Ashlands_VolcanicEbony>
 		</costList>
 		<statBases>

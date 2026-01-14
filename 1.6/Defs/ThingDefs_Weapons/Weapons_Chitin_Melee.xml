@@ -60,9 +60,10 @@
 			<Mass>1.6</Mass>
 		</statBases>
 		<equippedAngleOffset>-65</equippedAngleOffset>
-		<costList>
-			<InsectChitin>40</InsectChitin>
-		</costList>
+		<costStuffCount>40</costStuffCount>
+		<stuffCategories>
+			<li>MorrowRim_Chitin</li>
+		</stuffCategories>
 		<weaponTags>
 			<li>NeolithicMeleeBasic</li>
 			<li>MorrowRim_Dunmer_ChitinMeleeBasic</li>
@@ -129,9 +130,10 @@
 			<Mass>0.4</Mass>
 		</statBases>
 		<equippedAngleOffset>-65</equippedAngleOffset>
-		<costList>
-			<InsectChitin>30</InsectChitin>
-		</costList>
+		<costStuffCount>30</costStuffCount>
+		<stuffCategories>
+			<li>MorrowRim_Chitin</li>
+		</stuffCategories>
 		<weaponTags>
 			<li>NeolithicMeleeBasic</li>
 			<li>MorrowRim_Dunmer_ChitinMeleeBasic</li>
@@ -201,9 +203,10 @@
 				<Crafting>4</Crafting>
 			</skillRequirements>
 		</recipeMaker>
-		<costList>
-			<InsectChitin>75</InsectChitin>
-		</costList>
+		<costStuffCount>75</costStuffCount>
+		<stuffCategories>
+			<li>MorrowRim_Chitin</li>
+		</stuffCategories>
 		<weaponTags>
 			<li>NeolithicMeleeAdvanced</li>
 			<li>MorrowRim_Dunmer_ChitinMeleeAdvanced</li>
@@ -262,9 +265,10 @@
 				<Crafting>3</Crafting>
 			</skillRequirements>
 		</recipeMaker>
-		<costList>
-			<InsectChitin>50</InsectChitin>
-		</costList>
+		<costStuffCount>50</costStuffCount>
+		<stuffCategories>
+			<li>MorrowRim_Chitin</li>
+		</stuffCategories>
 		<weaponTags>
 			<li>NeolithicMeleeAdvanced</li>
 			<li>MedievalMeleeDecent</li>
@@ -337,9 +341,10 @@
 				<Crafting>3</Crafting>
 			</skillRequirements>
 		</recipeMaker>
-		<costList>
-			<InsectChitin>50</InsectChitin>
-		</costList>
+		<costStuffCount>50</costStuffCount>
+		<stuffCategories>
+			<li>MorrowRim_Chitin</li>
+		</stuffCategories>
 		<weaponTags>
 			<li>NeolithicMeleeAdvanced</li>
 			<li>MedievalMeleeDecent</li>

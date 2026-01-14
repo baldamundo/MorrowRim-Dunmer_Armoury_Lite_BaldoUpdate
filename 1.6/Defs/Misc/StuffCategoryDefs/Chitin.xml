@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <StuffCategoryDef>
+    <defName>MorrowRim_Chitin</defName>
+    <label>chitinous</label>
+    <noun>chitin</noun>
+    <!-- Use same sounds as leathery/fabric -->
+    <destroySoundSmall>BuildingDestroyed_Soft_Small</destroySoundSmall>
+    <destroySoundMedium>BuildingDestroyed_Soft_Medium</destroySoundMedium>
+    <!-- No destroySoundLarge needed (same as fabric/leathery) -->
+  </StuffCategoryDef>
+</Defs>
