@@ -5,7 +5,7 @@
 	-->
 	
 	<!-- ==========[MorrowRim_Dunmer_ArmourCuirass_OrdinatorHerHands]========== -->
-	<!-- <ThingDef ParentName="MorrowRim_Dunmer_Armour_Special" Name="MorrowRim_Dunmer_ArmourCuirass_OrdinatorHerHands">
+	<ThingDef ParentName="MorrowRim_Dunmer_Armour_Special" Name="MorrowRim_Dunmer_ArmourCuirass_OrdinatorHerHands">
 		<defName>MorrowRim_Dunmer_ArmourCuirass_OrdinatorHerHands</defName>
 		<label>Her Hand's cuirass</label>
 		<description>A legendary cuirass, worn by one of the Hands of Almalexia. While it may appear to simply be a regular High Ordinator cuirass, in certain lights one will be able to notice a strange shimmering to it, as if the metal itself is alive. The blessing placed upon this cuirass by Almalexia can still be felt, though it appears to have faded in strength over time.</description>
@@ -62,14 +62,14 @@
 			</tags>
 		</apparel>
 		<comps>
-			<li Class="MorrowRim_DunmerArmoury.CompProperties_ShieldExtended">
-				<blocksRangedWeapons>false</blocksRangedWeapons>
-				<texPath>Things/Pawn/Humanlike/Apparel/MorrowRim_Ordinator/Ordinator_HerHands/Ordinator_HerHands_Barrier</texPath>
-			</li>
+		  <li Class="CompProperties_Shield">
+			<blocksRangedWeapons>false</blocksRangedWeapons>
+		  </li>
 		</comps>
-	</ThingDef> -->
+
+	</ThingDef>
 	<!-- ==========[MorrowRim_Dunmer_ArmourHelmet_OrdinatorHerHands]========== -->
-	<!-- <ThingDef ParentName="MorrowRim_Dunmer_Armour_Special" Name="MorrowRim_Dunmer_ArmourHelmet_OrdinatorHerHands">
+	<ThingDef ParentName="MorrowRim_Dunmer_Armour_Special" Name="MorrowRim_Dunmer_ArmourHelmet_OrdinatorHerHands">
 		<defName>MorrowRim_Dunmer_ArmourHelmet_OrdinatorHerHands</defName>
 		<label>Her Hand's helmet</label>
 		<description>A legendary helmet, worn by one of the Hands of Almalexia. While it may appear to simply be a regular High Ordinator helmet, in certain lights one will be able to notice a strange shimmering to it, as if the metal itself is alive. The blessing placed upon this helmet by Almalexia can still be felt, though it appears to have faded in strength over time.</description>
@@ -119,9 +119,9 @@
 				<li>MorrowRim_Dunmer_OrdinatorArmour_HerHands</li>
 			</tags>
 		</apparel>
-	</ThingDef> -->
+	</ThingDef>
 	<!-- ==========[MorrowRim_Dunmer_ArmourBoots_OrdinatorHerHands]========== -->
-	<!-- <ThingDef ParentName="MorrowRim_Dunmer_Armour_Special" Name="MorrowRim_Dunmer_ArmourBoots_OrdinatorHerHands">
+	<ThingDef ParentName="MorrowRim_Dunmer_Armour_Special" Name="MorrowRim_Dunmer_ArmourBoots_OrdinatorHerHands">
 		<defName>MorrowRim_Dunmer_ArmourBoots_OrdinatorHerHands</defName>
 		<label>Her Hand's boots</label>
 		<description>A legendary pair of boots, worn by one of the Hands of Almalexia. While they may appear to simply be a regular High Ordinator boots, in certain lights one will be able to notice a strange shimmering to them, as if the metal itself is alive. The blessing placed upon these boots by Almalexia can still be felt, though it appears to have faded in strength over time.</description>
@@ -169,7 +169,7 @@
 		</apparel>
 	</ThingDef> -->
 	<!-- ==========[MorrowRim_Dunmer_ArmourGauntlets_OrdinatorHerHands]========== -->
-<!-- 	<ThingDef ParentName="MorrowRim_Dunmer_Armour_Special" Name="MorrowRim_Dunmer_ArmourGauntlets_OrdinatorHerHands">
+ 	<ThingDef ParentName="MorrowRim_Dunmer_Armour_Special" Name="MorrowRim_Dunmer_ArmourGauntlets_OrdinatorHerHands">
 		<defName>MorrowRim_Dunmer_ArmourGauntlets_OrdinatorHerHands</defName>
 		<label>Her Hand's gauntlets</label>
 		<description>A legendary pair of gauntlets, worn by one of the Hands of Almalexia. While they may appear to simply be a regular High Ordinator gauntlets, in certain lights one will be able to notice a strange shimmering to them, as if the metal itself is alive. The blessing placed upon these gauntlets by Almalexia can still be felt, though it appears to have faded in strength over time.</description>
@@ -215,5 +215,5 @@
 				<li>MorrowRim_Dunmer_OrdinatorArmour_HerHands</li>
 			</tags>
 		</apparel>
-	</ThingDef> -->
+	</ThingDef>
 </Defs>

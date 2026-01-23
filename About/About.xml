@@ -10,28 +10,11 @@
 	<description>.\n\n-Supports Vanilla Achievements Expanded\n-Requires ESCP - Tools\n-Based on the 'Elder Scrolls' series by Bethesda Game Studios\n\nSome of the art done by the world famous Dan.
 	</description>
 	<modDependencies>
-<!-- 	  <li>
-        <packageId>SirMashedPotato.InsectsHaveChitin</packageId>
-		<displayName>Insects have chitin</displayName>
-		<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2045595134</steamWorkshopUrl>
-		<downloadUrl>https://github.com/SirMashedPotato/Insects-Have-Chitin</downloadUrl>
-      </li>
 	  <li>
-        <packageId>SirMashedPotato.MorrowRim.SimpleBonemold</packageId>
-		<displayName>MorrowRim - Simple Bonemold</displayName>
-		<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2681835020</steamWorkshopUrl>
-		<downloadUrl>https://github.com/SirMashedPotato/MorrowRim-Simple_Bonemold</downloadUrl>
-      </li>
-	  <li>
-        <packageId>SirMashedPotato.MorrowRim.GlassAndEbony</packageId>
-		<displayName>MorrowRim - Glass and Ebony</displayName>
-		<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2053604662</steamWorkshopUrl>
-      </li>
-	  <li>
-        <packageId>SirMashedPotato.MorrowRim.Adamantium</packageId>
+        <packageId>escp.morrowrim.adamantium</packageId>
 		<displayName>MorrowRim - Adamantium</displayName>
-		<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2383451953</steamWorkshopUrl>
-      </li> -->
+		<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3244645830</steamWorkshopUrl>
+      </li>
 	  <li>
         <packageId>escp.morrowrim.simplebonemold</packageId>
 		<displayName>MorrowRim - Simple Bonemold</displayName>
@@ -63,6 +46,7 @@
 	  <li>escp.morrowrim.simplebonemold</li>
 	  <li>sirmashedpotato.ashlands</li>
 	  <li>ESCP.Dunmer</li>
+	  <li>escp.morrowrim.adamantium</li>
     </loadAfter>
 	<loadBefore>
 		<li>SirMashedPotato.ESCP.Dunmer</li>
