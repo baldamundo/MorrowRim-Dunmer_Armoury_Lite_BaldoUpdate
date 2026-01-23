@@ -221,7 +221,6 @@
             <value>
                 <weaponTags>
                     <li>MedievalMeleeAdvanced</li>
-                    <li>MorrowRim_Dunmer_BonemoldExplosive_Destructive</li>
                 </weaponTags>
             </value>
         </li>
@@ -240,12 +239,12 @@
         </li>
         
         <!-- 7. ChiefMelee: Keep existing + add GasExplosive -->
-        <li Class="PatchOperationAdd">
+<!--         <li Class="PatchOperationAdd">
             <xpath>/Defs/PawnKindDef[defName="ESCP_Dunmer_Tribal_ChiefMelee"]/weaponTags</xpath>
             <value>
                 <li>MorrowRim_Dunmer_BonemoldExplosive_Gas</li>
             </value>
-        </li>
+        </li> -->
         
         <!-- 8. ChiefRanged: NeolithicRangedChief → MedievalMeleeAdvanced + GasExplosive -->
         <li Class="PatchOperationReplace">
